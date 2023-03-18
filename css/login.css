@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+@keyframes slideLeft{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+.main-section1{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(237, 238, 240);
+    border-radius: 40px;
+    display: flex;
+    animation: 0.5s ease-out 0s 1 slideLeft;
+}
+
+.main-section1 .side-nav{
+    width: 16%;
+    height: 86vh;
+    background-color: white;
+    box-shadow: 0px 6px 12px 0px black;
+    border-radius: 40px 40px 40px 40px;
+    
+}
+
+.side-nav .nav-list{
+    height: auto;
+    width: auto;
+
+}
+
+
+
+
+.nav-list nav ul{
+    width: auto;
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    
+    
+    
+}
+
+.nav-list nav ul li{
+    list-style: none;
+    margin-top: 25px;
+    margin-left: 0px;
+    border-bottom: 1px solid rgb(231, 228, 228);
+    
+}
+
+
+
+.nav-list nav ul li a{
+    text-decoration: none;
+    color: gray;
+    
+
+    
+}
+
+.active{
+    border-right: 2px solid blue;
+}
+
+.main-inner-section{
+    width: 86%;
+    height: 86vh;
+    box-shadow: 0px 6px 12px 0px black;
+    border-radius: 40px 40px 40px 40px;
+    margin: auto;
+    
+}
+
+.form-box{
+    width: 80%;
+    height: 80vh;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 80px;
+    box-shadow: 0px 3px 6px 0px black;
+}
+
+.form-box form{
+    width: 50%;
+    height: 68vh;
+    padding: 40px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-box form input{
+    margin-top: 10px;
+}
+.form-box form select{
+    margin-top: 10px;
+}
+
+.form-box form button{
+    margin-top: 10px;
+}
+.mrp{
+    width: auto;
+    display: flex;
+    padding: 10px;
+}
+
+.mrp label{
+    margin-top: 18px;
+    margin-right: 10px;
+}
+
+.rates-card{
+    width: 100%;
+    display: flex;
+    
+}
+
+.offer{
+    width: auto;
+    display: flex;
+    padding: 10px;
+    
+}
+.offer label{
+    margin-top: 18px;
+    margin-right: 10px;
+}
+.form-box .form-heading{
+    width: 100%;
+    text-align: center;
+}
+
+.form-box .form-heading h2{
+    padding: 10px;
+}
+
+*{
+    margin: 0;
+    
+
+}
+@keyframes slideInLeft{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+.nav2{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(161, 161, 248);
+    box-shadow: 0px 12px 24px 0px black;
+    border-radius: 0px 0px 40px 40px;
+    animation: 0.5s ease-out 0s 1 slideInLeft;
+    
+    
+}
+
+.nav2 ul{
+    height: 10vh;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    
+    
+}
+.nav2 ul li{
+    list-style: none;
+    
+}
+
+.nav2 ul li i{
+    margin-top: 10px;
+    font-size: 30px;
+    margin-right: 50px;
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: white;
+    
+}
+
+.nav2 ul li .user-options{
+    display: none;
+}
+
+.user:hover .user-options{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 10px;
+    background-color: white;
+    box-shadow: 0px 6px 12px 0px black;
+    border-radius: 20px;
+    
+}
+.user .user-options a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 5px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    
+
+    
+}
+.nav2 .user-options a:hover{
+    background-color: rgb(149, 149, 238);
+    border-radius: 20px;
+}
+.nav2 .user-options i{
+    font-size: 16px;
+    padding-left: 10px;
+    color: blue;
+    border: none;
+    padding: none;
+}
+.login-link{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+

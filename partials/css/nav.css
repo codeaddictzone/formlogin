@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+nav{
+    width: auto;
+    height: 12vh;
+    background-color: black;
+}
+
+nav ul{
+    width: auto;
+    height: 12vh;
+    display: flex;
+}
+
+nav ul li img{
+    width: 180px;
+    height: auto;
+    margin-top: -72px;
+    margin-left: -40px;
+}
+
+nav ul li #address{
+    width: 120px;
+    background: none;
+    border: none;
+    color: white;
+}
+
+nav ul li #address option{
+    color: white;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li input{
+    width: 480px;
+    height: 4.1vh;
+}
+
+nav ul li select{
+    height: 5vh;
+    width: auto;
+}
+nav ul li input:focus{
+    outline: none;
+}
+
+nav ul li button{
+    height: 5vh;
+}
+
+nav ul li #cart-icon{
+    font-size: 25px;
+    margin-left: 210px;
+    padding: 10px;
+}
+
+nav ul li #cart-icon .cart-notification{
+    
+   margin-top: -46px;
+    background-color: red;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    border-radius: 60px;
+}
+
+.nav2{
+    height: 6vh;
+    background-color: rgb(52, 52, 90);
+}
+
+.nav2 ul{
+    height: 6vh;
+}
+
+.nav2 ul li a{
+    font-size: 14px;
+    
+}
+
+.nav2 ul li {
+    margin-top: 0px;
+    padding: 9px;
+}
+
+
+.nav2 ul li:hover {
+    border: 2px solid white;
+}
+
+
+
+nav ul li .id .id-pop{
+    display: none;
+}
+
+nav ul li .id:hover .id-pop{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 90px;
+    background-color: white;
+    box-shadow: 0px 6px 12px 0px black;
+}
+
+nav ul li .id-pop a {
+    color: black;
+    padding: 10px;
+}
+
+nav ul li .id-pop a:hover{
+    background-color: orange;
+    color: white;
+}
+
+nav ul li .id-pop .user-detail{
+    display: none;
+}
+
+nav ul li .id-pop .user-info{
+    padding: 10px;
+}
+
+nav ul li .id-pop .user-info:hover .user-detail{
+    display: flex;
+    position: absolute;
+    right: 140px;
+    top: 0px;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 6px 12px 0px black;
+}
